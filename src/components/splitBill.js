@@ -41,7 +41,7 @@ export default function SplitBill({
           type="number"
           value={myExpense}
         />
-        <label>👫Anthony's expense</label>
+        <label>👫{friends[selected]?.name}'s expense</label>
         <input disabled="true" value={bill - myExpense} />
         <label>🤑Who is paying the bill</label>
         <select
